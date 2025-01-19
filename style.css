@@ -1,0 +1,94 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    width: 400px; /* Set a fixed width for the popup */
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#bolt-popup {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+
+h2 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 20px; /* Added margin for spacing */
+}
+
+#cookie-list,
+#notes-section {
+    margin-bottom: 20px;
+    padding: 15px; /* Increased padding for better spacing */
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#cookie-list-items,
+#notes-list,
+#toolbar-sites-list,
+#speed-dial-sites-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+    display: flex; /* Flexbox for better alignment */
+    justify-content: space-between; /* Space between text and button */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+textarea {
+    width: calc(100% - 22px); /* Full width minus padding */
+    height: 80px; /* Fixed height for notes */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border for textarea */
+}
+
+/* Additional styles for inputs and labels */
+input[type="text"] {
+    width: calc(100% - 22px); /* Full width minus padding */
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+}
+
+label {
+    margin-top: 10px; /* Spacing above labels */
+}
+
+/* Quick access toolbar styling */
+#quick-access-toolbar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}

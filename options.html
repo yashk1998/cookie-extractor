@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolt Options</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Bolt Options</h1>
+    <p>Customize your Bolt experience.</p>
+
+    <!-- Settings for quick access toolbar -->
+    <h2>Quick Access Toolbar</h2>
+    <label for="toolbar-sites">Add Site to Toolbar:</label>
+    <input type="text" id="toolbar-sites" placeholder="https://example.com">
+    <button id="add-site-btn">Add Site</button>
+    <ul id="toolbar-sites-list"></ul>
+
+    <!-- Settings for speed dial -->
+    <h2>Speed Dial</h2>
+    <label for="speed-dial-sites">Add Site to Speed Dial:</label>
+    <input type="text" id="speed-dial-sites" placeholder="https://example.com">
+    <button id="add-speed-dial-btn">Add Site</button>
+    <ul id="speed-dial-sites-list"></ul>
+
+    <!-- Settings for session management -->
+    <h2>Session Management</h2>
+    <button id="save-session-btn">Save Current Session</button>
+    <button id="restore-session-btn">Restore Session</button>
+    <select id="session-list"></select>
+
+    <!-- Include options.js -->
+    <script src="options.js"></script>
+</body>
+</html>
